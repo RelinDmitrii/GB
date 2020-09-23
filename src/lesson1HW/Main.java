@@ -50,6 +50,7 @@ public class Main {
 
 
     static void printName(String p){
+
         System.out.println("Привет, "+p+"!");
     }
 
