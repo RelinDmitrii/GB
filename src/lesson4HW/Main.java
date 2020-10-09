@@ -157,7 +157,7 @@ public class Main {
             for (int j = 0; j < SIZE; j++) {
                 if(map[i][j] == c){
                     counter++;
-                }
+                } else counter = 0;
                 if(counter==DOTS_TO_WIN){
                     return true;
                 }
@@ -169,7 +169,7 @@ public class Main {
             for (int j = 0; j < SIZE; j++) {
                 if (map[j][i] == c) {
                     counter++;
-                }
+                }else counter = 0;
                 if (counter == DOTS_TO_WIN) {
                     return true;
                 }
