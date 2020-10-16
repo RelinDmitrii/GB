@@ -18,8 +18,8 @@ public class Main {
         }
 
         System.out.println(plate);
-        //plate.addEatToPlate(100);
-        //System.out.println(plate);
+        plate.addEatToPlate(100);
+        System.out.println(plate);
 
     }
 }

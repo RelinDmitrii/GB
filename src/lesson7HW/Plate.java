@@ -20,7 +20,7 @@ public class Plate {
             return;
         }
         food-=hungry;
-        System.out.println(cat.getHunger());
+        System.out.println(cat.getName()+" съел: "+cat.getHunger()+" еды");
     }
 
     public void addEatToPlate(int Eat){
