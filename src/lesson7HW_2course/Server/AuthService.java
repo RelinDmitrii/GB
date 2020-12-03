@@ -1,4 +1,4 @@
-package lesson8HW_2course.Server;
+package lesson7HW_2course.Server;
 
 public interface AuthService {
     /**
@@ -6,7 +6,5 @@ public interface AuthService {
      * @return - nickname если пользователь есть, null если пользователья нет
      */
     String getNicknameByLoginAndPassword(String login, String password);
-
-    boolean registration(String login, String password, String nickname);
 
 }

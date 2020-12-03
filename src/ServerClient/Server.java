@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Server {
-    private static int PORT = 8189;
+    private static int PORT = 8192;
 
     public static void main(String[] args) {
         ServerSocket server = null;
